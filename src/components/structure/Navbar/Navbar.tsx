@@ -16,7 +16,9 @@ const Navbar = () => {
 
             <hr className="text-[#eae9e7]" />
 
-            <NavLinks></NavLinks>
+            <div className="relative z-20">
+                <NavLinks></NavLinks>
+            </div>
 
         </div>
     );
